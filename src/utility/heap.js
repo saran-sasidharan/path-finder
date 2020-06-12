@@ -62,16 +62,3 @@ module.exports = {
   MinHeap,
   MaxHeap,
 };
-
-const test = MaxHeap();
-test.insert(10);
-test.insert(0);
-test.insert(9);
-test.insert(90);
-test.insert(4);
-console.log(test.pop());
-console.log(test.pop());
-console.log(test.pop());
-console.log(test.pop());
-console.log(test.pop());
-console.log(test.pop());
